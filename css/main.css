@@ -1,4 +1,7 @@
 
+*{
+	border:1px solid rg;
+}
 header>nav>div>div>a{
 	font-size: 45px;
 	font-family: Geneva, Tahoma, Verdana, sans-serif;
@@ -68,6 +71,8 @@ nav a{
 	margin-left: 50px;
 	margin-top: 0px;
 	padding-top: 60px;
+		font-family: Geneva, Tahoma, Verdana, sans-serif;
+
 }
 
 }
@@ -98,15 +103,15 @@ button{
 	margin-left: 20px;
 	margin-top: 0;
 	height: auto;
+		font-family: Geneva, Tahoma, Verdana, sans-serif;
+
 }
-.active{
-	color:#B5B5B5;
-}
-h2{
+
+.latest h2{
 	color: #868686;
 	margin-top: 40px;
 }
-.port>ul>li{
+.port>ul li{
 	max-width: 45%;
 	margin:20px;
 	display: block;
@@ -120,8 +125,18 @@ h2{
 }
 .port ul{
 	display: block;
+
 }
 .port ul img{
 	max-width: 100%;
+
+}
+
+.port ul h4{
+	color: #868686;
+	font-size: 13px;
+}.port ul {
+	color: #868670;
+	font-size: 11px;
 
 }
